@@ -1,9 +1,14 @@
 import React from 'react';
 import './normalize.css';
 import './index.css';
+import Header from './components/Header/Header';
 
 const App = () => (
-    <h1 className="mainHeader">Junior Start</h1>
+    <>
+        <header>
+            <Header />
+        </header>
+    </>
 );
 
 export default App;
