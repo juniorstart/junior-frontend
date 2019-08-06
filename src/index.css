@@ -1,30 +1,13 @@
-/* import */
-@import url('https://fonts.googleapis.com/css?family=Teko:400,500&display=swap&subset=latin-ext');
-
-/* variables */
-:root {
-    --base-color: #f4f5f6;
-    --second-color: #1ed2f4;
-    --third-color: #eafc40;
-    --fourth-color: #254558;
-    --fifth-color: #2b2b3a;
-    --sixth-color: #14a76c;
-    --seventh-color: rgba(234, 31, 31, 0.7);
-}
-
-/* general */
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 body {
-    background: var(--fifth-color);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.wrapper {
-    width: 85%;
-    max-width: 1250px;
-    margin: 0 auto;
-    color: var(--base-color);
-    font-family: 'Teko', sans-serif;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
