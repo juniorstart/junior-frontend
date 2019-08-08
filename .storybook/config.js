@@ -5,4 +5,6 @@ function loadStories() {
   req.keys().forEach(filename => req(filename));
 }
 
+addDecorator(story => <ThemeProvider theme={theme}>{story()}</ThemeProvider>);
+
 configure(loadStories, module);

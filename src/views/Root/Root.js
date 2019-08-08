@@ -1,13 +1,20 @@
 import React from 'react';
-import styled from 'styled-components';
-import Button from '../../components/Button/Button';
+import { ThemeProvider } from 'styled-components';
+import Button from '../../components/atoms/Button/Button';
+import Input from '../../components/atoms/Input/Input';
 import GlobalStyle from '../../theme/GlobalStyle';
+import { theme } from 'theme/mainTheme';
 
 const Root = () => (
   <div>
     <GlobalStyle />
-    <Button>Close / Save</Button>
-    <Button secondary>Remove</Button>
+    <ThemeProvider theme={theme}>
+      <>
+      <Input></Input>
+        <Button>Close / Save</Button>
+        <Button secondary>Remove</Button>
+      </>
+    </ThemeProvider>
   </div>
 );
 

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@storybook/addon-knobs": "^5.1.10",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
@@ -41,10 +43,11 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-no-unused-expressions": "^0.1.0",
-    "@storybook/react": "^5.1.10",
     "@storybook/addon-actions": "^5.1.10",
-    "@storybook/addon-links": "^5.1.10"
+    "@storybook/addon-links": "^5.1.10",
+    "@storybook/react": "^5.1.10",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-no-unused-expressions": "^0.1.0"
   }
 }
